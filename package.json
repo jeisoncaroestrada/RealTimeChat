@@ -1,0 +1,34 @@
+{
+  "name": "realtimechat",
+  "version": "1.0.0",
+  "description": "chat user nodejs express mongo and socketio",
+  "main": "app.js",
+  "scripts": {
+    "test": "start",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeisoncaroestrada/RealTimeChat.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "SocketIO",
+    "RealTime",
+    "Chat"
+  ],
+  "author": "JsonDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeisoncaroestrada/RealTimeChat/issues"
+  },
+  "homepage": "https://github.com/jeisoncaroestrada/RealTimeChat#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
